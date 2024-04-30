@@ -1,0 +1,145 @@
+[
+  {
+    "type": "item_group",
+    "subtype": "collection",
+    "id": "bandolier_hyd_gunslinger",
+    "entries": [ { "item": "38_fmj", "charges": 18 } ]
+  },
+  {
+    "type": "item_group",
+    "subtype": "collection",
+    "id": "pouch_hyd_gunslinger",
+    "entries": [ 
+      { "item": "38_speedloader6", "ammo-item": "38_fmj", "charges": 6 },
+      { "item": "38_speedloader6", "ammo-item": "38_fmj", "charges": 6 }
+    ]
+  },
+  {
+    "type": "profession",
+    "id": "gunslinger_amateur",
+    "name": "Amateur Western Gunslinger",
+    "description": "You may not have been born in the Wild West of America, but you sure do look and act the part for your fans! Was it a Rodeo or touring Wild West show? Or are you some crazy internet personality with a strange fixation? Either way, you're ready for this new frontier, partner! Well... you have a revolver and a cowboy hat, and know how to use them. Mostly!",
+    "points": 3,
+    "proficiencies": [ "prof_gunsmithing_basic", "prof_gun_cleaning" ],
+    "skills": [
+      { "level": 2, "name": "gun" },
+      { "level": 2, "name": "pistol" },
+      { "level": 1, "name": "rifle" },
+      { "level": 1, "name": "shotgun" },
+      { "level": 1, "name": "survival" },
+      { "level": 1, "name": "speech" }
+    ],
+    "items": {
+      "both": {
+        "entries": [
+          { "item": "socks" },
+          { "item": "boots_western" },
+          { "item": "jeans", "variant": "jeans_vintage" },
+          { "item": "chaps_leather" },
+          { "item": "flag_shirt" },
+          { "item": "dress_shirt"},
+          { "item": "vest_leather", "contents-group": "charged_smart_phone" },
+          { "item": "bandolier_pistol", "contents-group": "bandolier_hyd_gunslinger" },
+          { "item": "gloves_leather" },
+          { "item": "leather_belt" },
+          { "item": "model_10_revolver", "ammo-item": "38_fmj", "charges": 6, "container-item": "western_holster", "contents-group": "bandolier_hyd_gunslinger" },
+          { "item": "leather_pouch", "contents-group": "pouch_hyd_gunslinger" },
+          { "item": "38_speedloader6", "ammo-item": "38_fmj", "charges": 6 },
+          { "item": "38_speedloader6", "ammo-item": "38_fmj", "charges": 6 },
+          { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] },
+          { "item": "wearable_camera_pro" },
+          { "item": "cowboy_hat" }
+          ]
+        },
+      "male": { "entries": [ { "item": "boxer_shorts", "variant": "flag_boxer_shorts" } ] },
+      "female": { "entries": [ { "item": "sports_bra" }, { "item": "boy_shorts" } ] }
+    }
+  },
+  {
+    "type": "profession",
+    "id": "gunslinger_bio_amateur",
+    "name": "Amateur Bionic Gunslinger",
+    "description": "You may not have been born during the American Wild West, but you sure do look and act the part for your fans! Rodeo? A touring Wild West show? Or are you some crazy internet personality with a strange fixation? Either way you're ready for this new frontier, partner! Well. You have a revolver and a cowboy hat, and some shiny new bionic enhancements from your new sponsorship to boot!",
+    "points": 4,
+    "CBMs": [ "bio_batteries", "bio_targeting", "bio_power_storage" ],
+    "proficiencies": [ "prof_gunsmithing_basic", "prof_gun_cleaning" ],
+    "skills": [
+    { "level": 2, "name": "gun" },
+    { "level": 2, "name": "pistol" },
+    { "level": 1, "name": "rifle" },
+    { "level": 1, "name": "shotgun" },
+    { "level": 1, "name": "survival" },
+    { "level": 1, "name": "speech" }
+  ],
+  "items": {
+    "both": {
+      "entries": [
+        { "item": "socks" },
+        { "item": "boots_western" },
+        { "item": "jeans", "variant": "jeans_vintage" },
+        { "item": "chaps_leather" },
+        { "item": "flag_shirt" },
+        { "item": "dress_shirt"},
+        { "item": "vest_leather", "contents-group": "charged_smart_phone" },
+        { "item": "bandolier_pistol", "contents-group": "bandolier_hyd_gunslinger" },
+        { "item": "gloves_leather" },
+        { "item": "leather_belt" },
+        { "item": "model_10_revolver", "ammo-item": "38_fmj", "charges": 6, "container-item": "western_holster", "contents-group": "bandolier_hyd_gunslinger" },
+        { "item": "leather_pouch", "contents-group": "pouch_hyd_gunslinger" },
+        { "item": "38_speedloader6", "ammo-item": "38_fmj", "charges": 6 },
+        { "item": "38_speedloader6", "ammo-item": "38_fmj", "charges": 6 },
+        { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] },
+        { "item": "wearable_camera_pro" },
+        { "item": "cowboy_hat" }
+        ]
+      },
+    "male": { "entries": [ { "item": "boxer_shorts", "variant": "flag_boxer_shorts" } ] },
+    "female": { "entries": [ { "item": "sports_bra" }, { "item": "boy_shorts" } ] }
+  }
+},
+{
+  "type": "profession",
+  "id": "gunslinger_cattle",
+  "name": "Amateur Western Cow-Boy Gunslinger",
+  "description": "You may not have been born during the American Wild West, but you sure do look and act the part for your fans! Rodeo? A touring Wild West show? Or are you some crazy internet personality with a strange fixation? Either way you're ready for this new frontier, and pretty sure all that mutagen you injected from your new sponsorship won't kill you, partner!",
+  "points": 4,
+  "proficiencies": [ "prof_gunsmithing_basic", "prof_gun_cleaning" ],
+  "traits": [ "DISRESISTANT", "THICKSKIN", "DENSE_BONES", "VEGETARIAN", "SMELLY" ],
+  "skills": [
+    { "level": 2, "name": "gun" },
+    { "level": 2, "name": "pistol" },
+    { "level": 1, "name": "rifle" },
+    { "level": 1, "name": "shotgun" },
+    { "level": 1, "name": "survival" },
+    { "level": 1, "name": "speech" }
+  ],
+  "items": {
+    "both": {
+      "entries": [
+        { "item": "socks" },
+        { "item": "boots_western" },
+        { "item": "jeans", "variant": "jeans_vintage" },
+        { "item": "chaps_leather" },
+        { "item": "flag_shirt" },
+        { "item": "dress_shirt"},
+        { "item": "vest_leather", "contents-group": "charged_smart_phone" },
+        { "item": "bandolier_pistol", "contents-group": "bandolier_hyd_gunslinger" },
+        { "item": "gloves_leather" },
+        { "item": "leather_belt" },
+        { "item": "model_10_revolver", "ammo-item": "38_fmj", "charges": 6, "container-item": "western_holster", "contents-group": "bandolier_hyd_gunslinger" },
+        { "item": "leather_pouch", "contents-group": "pouch_hyd_gunslinger" },
+        { "item": "38_speedloader6", "ammo-item": "38_fmj", "charges": 6 },
+        { "item": "38_speedloader6", "ammo-item": "38_fmj", "charges": 6 },
+        { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] },
+        { "item": "wearable_camera_pro" },
+        { "item": "syringe" },
+        { "item": "iv_mutagen_cattle" },
+        { "item": "iv_mutagen_cattle" },
+        { "item": "cowboy_hat" }
+        ]
+      },
+    "male": { "entries": [ { "item": "boxer_shorts", "variant": "flag_boxer_shorts" } ] },
+    "female": { "entries": [ { "item": "sports_bra" }, { "item": "boy_shorts" } ] }
+  }
+}
+]

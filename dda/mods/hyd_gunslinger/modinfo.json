@@ -1,0 +1,13 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "ten_gunslinger",
+    "name": "Gunslinger Professions",
+    "authors": [ "hyd-n-plyn-syt" ],
+    "maintainers": [ "hyd-n-plyn-syt" ],
+    "description": "Currently adds 3 Gunslinger Professions. Amateur level. Standard, Bionic, and Mutant. See the readme for more info.",
+    "version": "DDA Experimental",
+    "category": "content",
+    "dependencies": [ "dda" ]
+  }
+]
