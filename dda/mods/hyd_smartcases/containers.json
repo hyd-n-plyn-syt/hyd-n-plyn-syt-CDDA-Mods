@@ -4,11 +4,12 @@
   "type": "GENERIC",
   "category": "container",
   "name": { "str": "waterproof e-ink tablet PC case" },
-  "looks_like": "camera",
+  "looks_like": "eink_tablet_pc",
   "description": "A waterproof case designed for an e-ink tablet PC.  Will protect your tablet from water damage entirely.",
   "ascii_picture": "waterproof_smart_phone_case",
-  "weight": "50 g",
-  "volume": "265 ml",
+  "weight": "70 g",
+  "volume": "300 ml",
+  "longest_side": "28 cm",
   "price": "10 USD",
   "price_postapoc": "1 USD",
   "material": [ "plastic" ],
@@ -18,12 +19,14 @@
     {
       "pocket_type": "CONTAINER",
       "max_contains_volume": "250 ml",
-      "max_contains_weight": "250 g",
+      "max_contains_weight": "300 g",
+      "max_item_length": "25 cm",
       "moves": 100,
       "watertight": true,
       "rigid": true,
       "item_restriction": [ "eink_tablet_pc", "eink_tablet_pc_on" ]
     }
-  ]
+  ],
+  "extend": { "flags": [ "TARDIS" ] }
  }
 ]

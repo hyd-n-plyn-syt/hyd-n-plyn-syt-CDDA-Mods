@@ -7,4 +7,4 @@
 
 >- Will be kept as up to date with current experimentals as possible, in case of item name changes, etc.
 
-***Created and maintained by: hyd-n-plyn-syt @*** [Github](https://github.com/hyd-n-plyn-syt/hyd-n-plyn-syt-CDDA-Mods/tree/main)
+***Created and maintained by: hyd-n-plyn-syt @*** [Github](https://github.com/hyd-n-plyn-syt/hyd-n-plyn-syt-CDDA-Mods)
