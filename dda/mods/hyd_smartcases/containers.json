@@ -1,4 +1,5 @@
-{
+[
+ {
   "id": "waterproof_eink_case",
   "type": "GENERIC",
   "category": "container",
@@ -24,4 +25,5 @@
       "item_restriction": [ "eink_tablet_pc", "eink_tablet_pc_on" ]
     }
   ]
-}
+ }
+]
