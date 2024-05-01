@@ -1,0 +1,62 @@
+[
+    {
+        "id": "waterproof_ar_glasses_basic_case",
+        "type": "TOOL_ARMOR",
+        "category": "clothing",
+        "name": { "str": "waterproof basic AR glasses case", "str_pl": "waterproof basic AR glasses cases" },
+        "description": "A waterproof case designed specifically for a pair of basic AR glasses.  Will protect your glasses from water damage entirely.",
+        "weight": "65 g",
+        "volume": "720 ml",
+        "price": "20 USD",
+        "price_postapoc": "1 USD",
+        "material": [ "plastic" ],
+        "symbol": "[",
+        "looks_like": "glasses_safety",
+        "color": "light_gray",
+        "pocket_data": [
+          {
+            "pocket_type": "CONTAINER",
+            "max_contains_volume": "720 ml",
+            "max_contains_weight": "130 g",
+            "moves": 100,
+            "watertight": true,
+            "rigid": true,
+            "item_restriction": [ "ar_glasses_basic" ]
+          }
+        ],
+        "armor": [ { "encumbrance": 5, "coverage": 95, "covers": [ "eyes" ] } ],
+        "material_thickness": 1,
+        "environmental_protection": 1,
+        "flags": [ "TARDIS" ]
+      },
+      {
+        "id": "waterproof_ar_glasses_advanced_case",
+        "type": "TOOL_ARMOR",
+        "category": "clothing",
+        "name": { "str": "waterproof advanced AR glasses case", "str_pl": "waterproof advanced AR glasses cases" },
+        "description": "A waterproof case designed specifically for a pair of advanced AR glasses.  Will protect your glasses from water damage entirely.",
+        "weight": "65 g",
+        "volume": "750 ml",
+        "price": "20 USD",
+        "price_postapoc": "1 USD",
+        "material": [ "plastic" ],
+        "symbol": "[",
+        "looks_like": "glasses_safety",
+        "color": "light_gray",
+        "pocket_data": [
+          {
+            "pocket_type": "CONTAINER",
+            "max_contains_volume": "750 ml",
+            "max_contains_weight": "340 g",
+            "moves": 100,
+            "watertight": true,
+            "rigid": true,
+            "item_restriction": [ "ar_glasses_advanced" ]
+          }
+        ],
+        "armor": [ { "encumbrance": 5, "coverage": 95, "covers": [ "eyes" ] } ],
+        "material_thickness": 1,
+        "environmental_protection": 1,
+        "flags": [ "TARDIS" ]
+      }
+]

@@ -5,7 +5,7 @@
     "name": "Smart Cases",
     "authors": [ "hyd-n-plyn-syt" ],
     "maintainers": [ "hyd-n-plyn-syt" ],
-    "description": "An attempt to add more than standard waterproof cases for just smart phones and cameras, starting with the eInk Tablet, then AR Glasses, etcettera until we've run out of electronics that should have cases!",
+    "description": "Adding standard waterproof cases for more than just smart phones and cameras, starting with the e-Ink Tablet, then AR Glasses, etcettera until we've run out of electronics that should have cases!",
     "version": "DDA Experimental",
     "category": "content",
     "dependencies": [ "dda" ]
