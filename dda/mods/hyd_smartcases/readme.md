@@ -1,4 +1,4 @@
-># - Smart Cases Mod
+># Smart Cases Mod
 
 >* An attempt to add more than standard waterproof cases for just smart phones and cameras, starting with the eInk Tablet, then AR Glasses, etcettera until we've run out of electronics that should have cases!
 
