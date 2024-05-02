@@ -1,4 +1,11 @@
 [
+  {
+    "id": "waterproof_smart_phone_case",
+    "copy-from": "waterproof_smart_phone_case",
+    "type": "GENERIC",
+    "name": { "str": "waterproof smartphone case" },
+    "volume": "105 ml"
+  },
  {
   "id": "waterproof_eink_case",
   "type": "GENERIC",
@@ -8,7 +15,7 @@
   "description": "A waterproof case designed for an e-ink tablet PC.  Will protect your tablet from water damage entirely.",
   "ascii_picture": "waterproof_smart_phone_case",
   "weight": "70 g",
-  "volume": "300 ml",
+  "volume": "255 ml",
   "longest_side": "28 cm",
   "price": "10 USD",
   "price_postapoc": "1 USD",
@@ -26,7 +33,34 @@
       "rigid": true,
       "item_restriction": [ "eink_tablet_pc", "eink_tablet_pc_on" ]
     }
-  ],
-  "extend": { "flags": [ "TARDIS" ] }
+  ]
+ },
+ {
+  "id": "waterproof_mp3_case",
+  "type": "GENERIC",
+  "category": "container",
+  "name": { "str": "waterproof mp3 player case" },
+  "looks_like": "mp3",
+  "description": "A waterproof case designed for any standard sized mp3 player on the market.  Will protect your mp3 from water damage entirely so you can continue to listen to your tunes in any conditions!",
+  "ascii_picture": "mp3",
+  "weight": "30 g",
+  "volume": "80 ml",
+  "price": "10 USD",
+  "price_postapoc": "1 USD",
+  "material": [ "plastic" ],
+  "symbol": ";",
+  "color": "dark_gray",
+  "pocket_data": [
+    {
+      "pocket_type": "CONTAINER",
+      "max_contains_volume": "75 ml",
+      "max_contains_weight": "280 g",
+      "max_item_length": "25 cm",
+      "moves": 100,
+      "watertight": true,
+      "rigid": true,
+      "item_restriction": [ "mp3", "mp3_on" ]
+    }
+  ]
  }
 ]

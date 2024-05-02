@@ -6,7 +6,7 @@
         "name": { "str": "waterproof basic AR glasses case", "str_pl": "waterproof basic AR glasses cases" },
         "description": "A waterproof case designed specifically for a pair of basic AR glasses.  Will protect your glasses from water damage entirely.",
         "weight": "65 g",
-        "volume": "720 ml",
+        "volume": "725 ml",
         "price": "20 USD",
         "price_postapoc": "1 USD",
         "material": [ "plastic" ],
@@ -26,8 +26,7 @@
         ],
         "armor": [ { "encumbrance": 5, "coverage": 95, "covers": [ "eyes" ] } ],
         "material_thickness": 1,
-        "environmental_protection": 1,
-        "flags": [ "TARDIS" ]
+        "environmental_protection": 1
       },
       {
         "id": "waterproof_ar_glasses_advanced_case",
@@ -36,7 +35,7 @@
         "name": { "str": "waterproof advanced AR glasses case", "str_pl": "waterproof advanced AR glasses cases" },
         "description": "A waterproof case designed specifically for a pair of advanced AR glasses.  Will protect your glasses from water damage entirely.",
         "weight": "65 g",
-        "volume": "750 ml",
+        "volume": "755 ml",
         "price": "20 USD",
         "price_postapoc": "1 USD",
         "material": [ "plastic" ],
@@ -56,7 +55,6 @@
         ],
         "armor": [ { "encumbrance": 5, "coverage": 95, "covers": [ "eyes" ] } ],
         "material_thickness": 1,
-        "environmental_protection": 1,
-        "flags": [ "TARDIS" ]
+        "environmental_protection": 1
       }
 ]
