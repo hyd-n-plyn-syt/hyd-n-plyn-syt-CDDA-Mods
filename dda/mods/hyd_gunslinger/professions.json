@@ -232,8 +232,8 @@
         { "item": "cowboy_hat" },
         { "item": "bandolier_pistol", "contents-group": "bandolier_hyd_10mm" },
         {
-          "item": "colt_saa",
-          "ammo-item": "45colt_jhp",
+          "item": "sw_610",
+          "ammo-item": "10mm_jhp",
           "charges": 6,
           "container-item": "western_holster",
           "contents-group": "bandolier_hyd_10mm"
@@ -274,8 +274,8 @@
         { "item": "leather_belt" },
         { "item": "bandolier_pistol", "contents-group": "bandolier_hyd_10mm" },
         {
-          "item": "colt_saa",
-          "ammo-item": "45colt_jhp",
+          "item": "sw_610",
+          "ammo-item": "10mm_jhp",
           "charges": 6,
           "container-item": "western_holster",
           "contents-group": "bandolier_hyd_10mm"
