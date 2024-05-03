@@ -5,4 +5,14 @@
 - Added cases for both versions of the AR glasses, wearable over the eyes like any other eyewear. Do not seem to effect perception. Devices are fully functional I had to make one for each device, as they have wildly different weights and volumes, which is I suppose to be expected. Look at the Quest over the Quest 3.
 - Added in a case for the mp3 player. Still hear that glorious music too. Yus.
 - Fixed the larger on the inside than outside issue by adjusting the volume of the cases to be 5ml larger than the object the hold, across the board. And so, removed the TARDIS flag with no errors after. Went back and figured out how to make changes to pre-existing items and changed the smart phone case to that same logic, reducing it's size by 45ml. That's a lot of extra plastic that was taking up room with something that hugs the device directly.
+new ascii art.
+
 ***hyd-n-plyn-syt***
+
+------------------------
+###### **5/2/24**
+- Made a basic ascii art for e-Ink tablet cases, realized that there was no ascii for tablets themselves, scrapped what I made and remade one for each of them that actually look similar. Spent far too much time with that due to OCD. Added an override of the original e-Ink tablet to include this new ascii art.
+
+***hyd-n-plyn-syt***
+
+------------------------
